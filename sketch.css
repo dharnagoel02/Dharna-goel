@@ -1,0 +1,342 @@
+/* ***********************************NAVBAR******************************* */
+
+  .container-fluid {
+    padding: 2%;
+    background-color: black!important;
+}
+
+  .navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* font-size: x-large!important; */
+    font-weight: bolder!important;
+    color: white;
+}
+
+.navbar-brand:hover{
+   color: #ff7373!important;
+    
+}
+
+.nav-item:hover{
+    background-color: #fd5757;
+    color: #FEFFFF;
+}
+
+.nav-item {
+    padding: 0%!important;
+    font-size: large;
+}
+
+nav{
+    padding: 0% !important;
+}
+
+
+/* ***********************************HEADER******************************* */
+
+
+.head{
+    background-image: url('technology.jpeg')!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+}
+
+.quote{
+    padding: 20% 7%!important;
+    color: aliceblue;
+    font-family: 'Ubuntu','Oswald', sans-serif;
+    word-spacing: 6px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: right; 
+}
+
+
+
+/* ***********************************ABOUT******************************* */
+
+
+.second{
+    background-color: #FEFFFF;
+    padding: 15% 7%;
+}
+
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10%; */
+    width: 60%;
+
+}
+
+.about-head {
+color: #000!important;
+font-family: 'Ubuntu', sans-serif;
+padding-top:1%;
+padding-bottom: 1%;
+text-align: center;
+}
+
+.profile-photo{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+      width: 10%;
+    border-radius: 50%;
+ }
+
+.rule{
+    width:60%;
+    border-top: 1px solid rgb(0 0 0 / 95%)
+}
+
+
+/* ***********************************ORDERS******************************* */
+
+
+.orders{
+    color:aliceblue;
+    padding: 15% 5%  ;
+    background-color: black;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.order-head {
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    /* font-size: 3rem; */
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 5%;
+}
+
+.row{
+    padding-top: 5%;
+}
+
+.order-image {
+    background-image: url('check1.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 30px;
+}
+
+.image-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.order-text {
+    /* padding: 30% 15% 10%; */
+    padding-top: 20%;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.5; 
+    color: #000000;
+    font-family: 'Dancing Script','Ubuntu',sans-serif;
+    filter: drop-shadow(1px 1px 1px #080808ee);
+}
+
+.order-icon{
+    color: #141414;
+   padding: 0% 10%;
+}
+
+.order-icon:hover{
+    filter: drop-shadow(2px 2px 2px #dba6a6);
+
+}
+
+.image1{
+    padding: 2%;
+    border-radius: 100px!important;
+    width: 50%;
+}
+
+.image1:hover{
+    filter: drop-shadow(4px 4px 4px #e29292);
+    cursor: pointer;
+}
+
+
+/* ***********************************SLIDES******************************* */
+
+
+.d-block {
+    padding: 5% 7%!important;
+}
+.slide {
+    padding: 5% 5% 0% 5%!important;
+    margin: 7%,5%; 
+    /* background-color: #00000094; */
+}
+.slide-head{
+    text-align: center;
+    padding-top: 4%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+
+  }
+.btn{
+    background-color:#2b2a2a;
+    border-radius: 20px;
+    border-color: #2b2a2a;
+    padding: 1% 2%;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    color: #FEFFFF;
+}
+.btn:hover{
+    background-color:#ff7373 ;
+}
+
+.love {
+    text-align: center;
+    padding: 1%;
+    margin: 2% 5% 0%;
+    border-radius: 30px;
+}
+
+
+/* ***********************************CHECK******************************* */
+
+
+.check {
+    padding:1% 1%;
+    margin: 7% 5% 0%;
+    border-radius: 30px;
+    text-align: center;
+}
+.insta:hover{
+    color: #ff7373;
+}
+.con {
+    color: aliceblue;
+    text-align:center;
+    font-style: italic;
+}
+
+
+/* ***********************************FOOTER******************************* */
+
+
+footer{
+    margin-top: 7%;
+    padding: 7% 20%;
+    background-color:black ;
+    color: aliceblue;
+    text-align: center;
+    /* font-size: 1.5rem; */
+    line-height: 1.5;
+}
+.copy {
+    padding-top: 1%;
+    color: aliceblue;
+    text-align:center;
+    font-size: 1rem;
+}
+.icon{
+    color: aliceblue;
+    padding-right: 2%;
+    padding-left: 2%;
+ }
+ .icon:hover {
+ color: #ff7373;
+ cursor: pointer;
+ }
+
+
+
+.arrow{
+  margin-left: 10%;
+  padding-left: 100%;
+}
+
+.myBtn{
+    background-color:#fd5757;
+    color: black; 
+    border-radius: 50%;
+    border-color: #fd5757;
+    bottom: 2%;
+    right: 2%;
+}
+.myBtn:hover{
+    background-color:antiquewhite;
+    color:#000
+}
+
+  /* ***********************************SOCIAL-ICON-BAR******************************* */
+
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float:left;
+  
+  }
+  
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  
+.icon-bar a{
+    color: #000000;
+}
+.icon-bar a:hover {
+    color: #FEFFFF;
+    background-color: #000;
+}
+
+
+/* ***********************************MEDIA-QUERRIES******************************* */
+
+
+@media screen and (max-width: 500px) {
+    .profile-photo{
+        width: 12%;
+    }
+    .order-text{
+        font-size: 3rem;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .order-image{
+        margin-top: 8%;
+    }
+    .icon-bar{
+        visibility: hidden;
+    }
+  }
+  @media screen and (max-width: 767px) {
+  .nav-item:hover{
+    background-color: #fd5757;
+    color: white;
+    padding-left: 2%;
+}
+  }
+
+
+  .carousel-control-prev-icon{
+      color: #000!important;
+  }
